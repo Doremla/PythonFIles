@@ -1,4 +1,6 @@
 Ngrades = int(input("Dimmi il  numero dei voti: "));
+while Ngrades <= 0:
+    Ngrades = int(input("Valore negativo non valido, riprova: "));
 print(f"Il numero dei voti inserito è: {Ngrades}"); 
 grades = [];
 count = 0;
