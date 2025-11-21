@@ -11,7 +11,7 @@ while count < Ngrades:
     count += 1;
     grade = int(input("Dammi il voto: "));
     print(f"Il voto inserito è: {grade}");
-    grades.append(grade);
+bbbg    grades.append(grade);
 
 i = 0;
 
